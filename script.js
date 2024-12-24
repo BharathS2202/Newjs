@@ -254,3 +254,27 @@
 //     docount++
 // }while(docount<5)
 
+// if- else
+
+// var age = 10
+// if(age>=18 && age<=70){
+//     console.log("he is eligible to vote");
+// }else{
+//     console.log("he is not eligible to vote"); 
+// }
+
+//els-if (can check multiple conditions)
+
+var mark = 10
+if(mark>=90){
+    console.log("Grade A");
+}else if(mark>=80){
+    console.log("Grade B");
+}else if (mark>=70){
+    console.log("Grade c");
+}else if(mark>=60){
+    console.log("Grade D");
+}else {
+    console.log("Fail");
+    
+}
