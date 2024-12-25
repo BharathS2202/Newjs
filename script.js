@@ -254,7 +254,6 @@
 //     docount++
 // }while(docount<5)
 
-<<<<<<< HEAD
 //Array methods :
 
 //push (push keyword is used to add a value/ data in last in array)
@@ -302,29 +301,106 @@
 // var char = ["Shakthi","arivu","Jaya","balasundar","lokesh"]
 // char.sort()
 // console.log(char);
-=======
-// if- else
 
-// var age = 10
-// if(age>=18 && age<=70){
-//     console.log("he is eligible to vote");
-// }else{
-//     console.log("he is not eligible to vote"); 
-// }
+//slice : is used to cut the array based on indices
 
-//els-if (can check multiple conditions)
+// var birds = ["eagle","vulture","peacock","pegion"]
+// var slice = birds.slice(2,-1)
+// console.log(slice);
 
-var mark = 10
-if(mark>=90){
-    console.log("Grade A");
-}else if(mark>=80){
-    console.log("Grade B");
-}else if (mark>=70){
-    console.log("Grade c");
-}else if(mark>=60){
-    console.log("Grade D");
-}else {
-    console.log("Fail");
-    
-}
->>>>>>> 3874699f23ed26007607d7ebd568afe71c214c7c
+
+//splice :
+
+//syntax :
+//var_name.splice(index,counter[0,1],actualvalue)
+//0 => push and update the value
+//1 =>override and update the value
+
+// var weeks = ["sunday","monday","tuesday","thursday","saturday"]
+// weeks.splice(3,0,"wednesday")
+// weeks.splice(5,1,"friday")
+// console.log(weeks);
+
+//String methods:
+
+//split:
+
+// var greet = "hello world"
+// var spl = greet.split(" ")
+// console.log(spl);
+
+//join:
+
+// var j = spl.join(" ")
+// console.log(j);
+
+//reverse :
+
+// var str = "javascript"
+// var rev = str.split("").reverse().join("")
+// console.log(rev);
+
+//toUppercase:
+
+// var up = "newyork"
+// console.log(up.toUpperCase());
+
+// tolowercase:
+
+// var lo = "NEWYORK"
+// console.log(lo.toLowerCase());
+
+//includes :
+
+// var inc = "logan"
+// var inc2 = inc.includes("O")
+// console.log(inc2);
+
+//charAt:
+
+// var char = "happy"
+// console.log(char.charAt(1));
+
+//substring :
+
+// var sub = "goodmorning"
+// console.log(sub.substring(4));
+
+//repeat :
+//  var rep = "hi"
+//  console.log(rep.repeat(4));
+
+//index of - first occurence
+
+// var idx = "javascript"
+// console.log(idx.indexOf("a"));
+
+
+//lastindexof : prints last character value
+
+// var lidx = "javascript"
+//  console.log(lidx.lastIndexOf("a"));
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
