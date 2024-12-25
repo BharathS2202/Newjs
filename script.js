@@ -254,3 +254,50 @@
 //     docount++
 // }while(docount<5)
 
+//Array methods :
+
+//push (push keyword is used to add a value/ data in last in array)
+
+// var bc = ["jai" , "gopi" , "shakti"]
+// bc.push("sabari")
+// console.log(bc);
+
+// pop (pop keyword is used to remove the last data/value in an array)
+// bc.pop()
+// console.log(bc);
+
+//unshift (this keyword is used to take an value in starting position or first place in an array)
+// var ac = ["jai" , "gopi" , "shakti"]
+// ac.unshift("sabari")
+// console.log(ac);
+
+//shift (used to remove first data in array)
+// ac.shift()
+// console.log(ac);
+
+//concat 
+
+// var fruits = ["apple","banana","orange"]
+// var veg = ["carrot","tomato","cucumber"]
+// var cos = ["powder","scent"]
+// var cover = fruits.concat(veg,cos)
+// console.log(cover);
+
+//sort :
+// var num = [2,1,8,4,9,7,6,5,3];
+// num.sort((a,b) => a-b);
+// console.log(num);
+
+//if thr result of a-b is negative , a is placed before b.
+//if the result is positive, b is placed before a.     //b a
+//If the result is zero, the order remains unchanged (which is relevent for elements that are equal)
+
+//Starting array : [2,1,8,4,9,7,6,5,3];
+
+//comparision b/w 2 and 1 :
+// 2-1 = 1 ; since the result is positive , 2 should come after 1.
+//updated array :[1,2,8,4,9,7,6,5,3]
+
+// var char = ["Shakthi","arivu","Jaya","balasundar","lokesh"]
+// char.sort()
+// console.log(char);
