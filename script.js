@@ -381,23 +381,106 @@
 // var lidx = "javascript"
 //  console.log(lidx.lastIndexOf("a"));
  
+//Object:
+//collection of key and value pairs:
+
+// const obj = {
+//     name : "kali",
+//     age : 12
+// }
+// obj.name = "vijay"
+// console.log(obj);
+// //value retrive :
+// console.log(obj.name);
+// console.log(obj.age);
+
+//Nested arry and object :
+//  var stdobj = [
+// {
+//     name : "bharath",
+//     age : 12
+// },
+// {
+//     name : "gokul",
+//     age : 13
+// },
+// {
+//     name : "gopal",
+//     age : 14
+// }
+//  ]
+// console.log(stdobj);
+
+//passing indes :
+
+// var stdobj = [
+//     {
+//         name : "bharath",
+//         age : 12
+//     },
+//     {
+//         name : "gokul",
+//         age : 13
+//     },
+//     {
+//         name : "gopal",
+//         age : 14
+//     }
+//      ]
+//     console.log(stdobj[1]);
+
+//Object destructuring :
+
+// var ofcobj = {
+//     name : "deepak",
+//     age : 12,
+//     Dep : "It"
+// }
+// var{name,age,Dep} = ofcobj
+// console.log(name,age,Dep);
+
+//Task :
+
+//office object => name,age,dep,id no [5] => destructuring [3] get
+
+// var ofcobj = [
+// {name : "vijay",
+//    age :12,
+//    dep : "IT",
+//   IDNo : "I13" },
+// {  name : "bharath",
+//     age : 13,
+//     dep : "CSE",
+//   IDNo : "I31"},
+//   {name : "gokul",
+//     age :14,
+//     dep : "ECE",
+//   IDNo :"I21"},
+//   {name : "rahul",
+//     age :15,
+//     dep : "Mech",
+//   IDNo :"I122" },
+//   {name : "prem",
+//     age : 13,
+//     dep : "bio",
+//   IDNo : "I311" }
+// ]
+// var {name,age,dep,IDNo} = ofcobj[3]
+// console.log(name,age,dep,IDNo);
 
 
+//For methods :
 
+//foreach
+//syntax :
 
+//var_name.foreach((value,index,actualarray)=>)
 
-
-
-
-
-
-
-
-
-
-
-
-
+    // var weeks = ["sunday","monday","yuesday","wednesday","thursday"]
+    //     weeks.forEach((val,idx,accarr)=> console.log(val,idx,accarr));
+        
+//forin
+//forof
 
 
 
