@@ -22,27 +22,47 @@
 
 //callback hell:
 
-function hello(callback){
+// function hello(callback){
     
-        console.log("good morning");
-    callback();
-}
-function hai(callback){
-console.log("bye");
-callback();
-}
-function hh(callback){
-    console.log("new");
-    callback();
-}
-function gg(){
-    console.log("nnew");
+//         console.log("good morning");
+//     callback();
+// }
+// function hai(callback){
+// console.log("bye");
+// callback();
+// }
+// function hh(callback){
+//     console.log("new");
+//     callback();
+// }
+// function gg(){
+//     console.log("nnew");
     
-}
-hello(()=>{
-    hai(()=>{
-        hh(()=>{
-            gg()
-        })})})
+// }
+// hello(()=>{
+//     hai(()=>{
+//         hh(()=>{
+//             gg()
+//         })})})
+
+//class => it is a blueprint that contains methods and object
+
+// class JSclass{
+//     setName(name1){
+//         this.name = name1;
+//     }
+//     setage(age1){
+//         this.age = age1;
+//     }
+// printing(){
+//     console.log(`my name is ${this.name}
+//         My age is ${this.age}`);
+// }
+// }
+// const per = new JSclass();
+// per.setName("bharath");
+// per.setage(23);
+// per.printing();
+
 
         
