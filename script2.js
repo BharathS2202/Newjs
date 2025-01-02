@@ -67,7 +67,7 @@
 //promise : It is an object that handles asynchronous operation in synchronous way
 
 // .then => to call resolve
-// //=> to call reject
+// .catch => to call reject
 
 // let mypro = new Promise((resolve, reject) => {
 //   let success = true;
@@ -137,15 +137,26 @@
 // }
 // console.log(`Number of duplicate letters: ${duplicateCount}`);
 
-const input = "i iam bharath";
+//const input = "i iam bharath";
 
 // Remove spaces and reverse the characters
-let reversed = "";
-for (let i = input.length - 1; i >= 0; i--) {
-  if (input[i] !== " ") {
-    reversed += input[i];
-  }
-}
-console.log(reversed);
+// let reversed = "";
+// for (let i = input.length - 1; i >= 0; i--) {
+//   if (input[i] !== " ") {
+//     reversed += input[i];
+//   }
+// }
+// console.log(reversed);
 
+
+// const fetchData = async () => {
+//   const promise = new Promise((resolve) => {
+//       setTimeout(() => resolve("Data fetched successfully!"), 1000);
+//   });
+  
+//   const result = await promise;
+//   console.log(result);
+// };
+
+// fetchData();
 
